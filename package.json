@@ -4,8 +4,13 @@
   "description": "A babel plugin that transform the extension of the imported module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "beilunyang",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-tester": "^5.5.2",
+    "jest": "^23.6.0"
+  }
 }
