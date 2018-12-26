@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- 8
+install: npm install
+script: npm test
+deploy:
+  provider: npm
+  email: 786220806@qq.com
+  api_key:
+    secure: JwyuMnTd9pOMsjUIVL9zV4wopOTf7Y7W3QR+hI306wl1evL5mvVmnJVi6I0yGQLAVcZ0ZTPmZO8GiEJ27QZKAiobW5Unk44ej9siBU55cKGWolwF64z+6QU0VrsNLUo+UUHT9SPsvZG14lS+YDdAP/rCRrpQ3lAA731MgoB5f8IOgM5AxXjTmxpq2hL9luljf6r0qZ6pCf/dktYZxMYgJ07ZIMAEjjb+qX3KdhKIuGyun/yr52QFLnKKr4par8TaV/fTWdDERwl8TuuYOUZIJDr/mqS1U4THPIpIWJfetnGND45R1EV1Yykz5lfLw3UsUYFLGUnvx9FDryg2gE8RoHPZxn/PNaxle5kLY4wGSlgcOht+ubI+D5AYEHglxVPVECwxS/TfhUR6MtJOHLNy+FnEarHT2bhpnMCNXFFrLEIzfBIFm0vdsKyOsZ2YCQZ8KgiQelP2OzbSH1aeUwTIYhKEacBT/GrZ1GcKggsf6Kf9hauQrteISuDrMEHyHYRtpzRKx/IypNSS7g+eikct0qLL0XnSSxSCAhie4OFM7YoAFyHTN4j7QJ6YEolghqYJJYJ8dXLeKKwblpRaaCaMdYGUmdpBcMdXmd32TNjUbf75RjILa1rsQJUurj3wRvqRY3D8PQ+KZuOh/5FoWkU1loSXvorzZ+9+qGg9NbfWHbI=
+  skip_cleanup: true
+  on:
+    tags: true
+cache: yarn
+branches:
+  only:
+  - /^v\d+\.\d+(\.\d+)?(-\S*)?$/

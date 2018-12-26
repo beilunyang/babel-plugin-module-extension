@@ -6,8 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beilunyang/babel-plugin-module-extension.git"
+  },
   "author": "beilunyang",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beilunyang/babel-plugin-module-extension/issues"
+  },
+  "homepage": "https://github.com/beilunyang/babel-plugin-module-extension#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-tester": "^5.5.2",
