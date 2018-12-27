@@ -1,11 +1,12 @@
 {
   "name": "babel-plugin-module-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A babel plugin that transform the extension of the imported module",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "keywords": ["babel-plugin", "transform extension"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beilunyang/babel-plugin-module-extension.git"
