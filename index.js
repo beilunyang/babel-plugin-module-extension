@@ -8,7 +8,7 @@
 const transformExt = (rules, node) => {
   const originExts = Object.keys(rules);
   for (const originExt of originExts) {
-    const originExtRegx = new RegExp(`.${originExt}$`);
+    const originExtRegx = new RegExp(`\\.${originExt}$`);
     const replaceValue = rules[originExt] ? `.${rules[originExt]}` : '';
     const value = node.value.replace(originExtRegx, replaceValue);
     if (value !== node.value) {
