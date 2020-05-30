@@ -23,6 +23,6 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-tester": "^5.5.2",
-    "jest": "^23.6.0"
+    "jest": "^26.0.1"
   }
 }
