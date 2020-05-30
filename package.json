@@ -6,7 +6,10 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["babel-plugin", "transform extension"],
+  "keywords": [
+    "babel-plugin",
+    "transform extension"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beilunyang/babel-plugin-module-extension.git"

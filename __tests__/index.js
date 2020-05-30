@@ -19,6 +19,13 @@ pluginTester({
         ts: 'js',
       },
     },
+    'don\'t transform .cjs to ..cjs': {
+      code: 'const hello = require("./hello.cjs");',
+      output: 'const hello = require("./hello.cjs");',
+      pluginOptions: {
+        js: 'cjs',
+      },
+    },
     'remove .ts in the imported module path': {
       code: 'import hello from "./hello.ts";',
       output: 'import hello from "./hello";',
