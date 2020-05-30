@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-module-extension",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A babel plugin that transform the extension of the imported module",
   "main": "index.js",
   "scripts": {
